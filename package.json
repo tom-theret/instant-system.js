@@ -1,0 +1,58 @@
+{
+  "name": "instant-system.js",
+  "version": "0.0.1",
+  "description": "A wrapper for the Instant System API used by many local transport companies.",
+  "readme": "README.md",
+  "maintainers": [
+    {
+      "name": "Tom Theret",
+      "email": "tomnils.theret@gmail.com",
+      "url": "https://github.com/tom-theret"
+    }
+  ],
+  "author": {
+    "name": "Tom Theret",
+    "email": "tomnils.theret@gmail.com",
+    "url": "https://github.com/tom-theret"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tom-theret/instant-system.js.git"
+  },
+  "homepage": "https://github.com/tom-theret/instant-system.js#readme",
+  "bugs": {
+    "url": "https://github.com/tom-theret/instant-system.js/issues"
+  },
+  "keywords": [
+    "API",
+    "Instant System",
+    "local transport",
+    "transport",
+    "wrapper",
+    "bus",
+    "train",
+    "tramway",
+    "metro",
+    "ferry",
+    "taxi",
+    "bike",
+    "cycle"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src/ --ext .ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.0.1"
+  }
+}
