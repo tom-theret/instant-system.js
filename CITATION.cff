@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "Instant-System.js"
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Tom
+    family-names: Theret
+    email: tomnils.theret@gmail.com
+    orcid: "https://orcid.org/0009-0005-2999-0153"
+repository-code: "https://github.com/tom-theret/instant-system.js"
+abstract: >-
+  A wrapper for the Instant System API used by many local transport companies.
+keywords:
+  - api
+  - bus
+  - instant-system
+  - tramway
+  - train
+  - transport
+  - wrapper
+license: GPL-3.0
+references:
+  - type: dataset
+    title: "Instant-System API"
+    abstract: "Documentation for the Instant System API used by many public transport networks."
+    authors:
+      - name: zdimension
+    repository-code: "https://github.com/zdimension/instant-system-api"
+    license: MIT
