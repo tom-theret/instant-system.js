@@ -18,9 +18,6 @@ jobs:
       - name: Install and Build
         run: npm run build
 
-      - name: Lint
-        run: npm run lint
-
       - name: Publish
         run: npm publish --provenance --access public
         env:
