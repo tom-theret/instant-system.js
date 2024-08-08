@@ -1,9 +1,9 @@
 import { LaunchNewsV3 } from "../../model/v3/launchNews";
-import { V3_GET_NETWORK_LAUNCHNEWS } from "../../utils/endpoints";
+import { DEV_BASE_URL, PROD_BASE_URL, V3_GET_NETWORK_LAUNCHNEWS } from "../../utils/endpoints";
 import { ISFetcher } from "../../utils/fetcher";
 
-export const getLaunchNewsV3 = async (instance: string, networkID: number, key?: number | null): Promise<LaunchNewsV3> => {
-  let endpoint = instance + V3_GET_NETWORK_LAUNCHNEWS(networkID);
+export const getLaunchNewsV3 = async (networkID: number, key?: number | null, useDevInstance=false): Promise<LaunchNewsV3> => {
+  let endpoint = useDevInstance ? DEV_BASE_URL : PROD_BASE_URL + V3_GET_NETWORK_LAUNCHNEWS(networkID);
 
   if (key) {
     endpoint += "&key=" + key;
