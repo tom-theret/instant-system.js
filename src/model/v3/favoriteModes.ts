@@ -1,0 +1,1 @@
+export type FavoriteModesV3 = "LINE_STOPPOINT_DIRECTION" | "LINE_STOPAREA" | "STATION" ;
