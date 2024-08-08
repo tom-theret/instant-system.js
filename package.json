@@ -42,7 +42,7 @@
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "npm i && tsc -p tsconfig.json",
     "lint": "eslint src/ --ext .ts"
   },
   "dependencies": {
