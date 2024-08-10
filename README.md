@@ -16,8 +16,8 @@ npm install instant-system.js
 ```javascript
 const IS = require('instant-system.js');
 
-IS.getNetworkV3(14, false).then((res) => {
-  console.log(res);
+IS.default.getNetworkV3(14).then((network) => {
+    console.log(network);
 });
 ```
 
