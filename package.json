@@ -1,6 +1,6 @@
 {
   "name": "instant-system.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A wrapper for the Instant System API used by many local transport companies.",
   "readme": "README.md",
   "maintainers": [
